@@ -1,0 +1,31 @@
+name: Update results
+
+# Pulls finished-match results from ESPN and commits them to data.json.
+# Runs on GitHub's infra (always awake) and pushes to this repo via the
+# built-in GITHUB_TOKEN - no external credentials needed.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes (GitHub may delay 5-15 min)
+  workflow_dispatch: {}       # allow manual runs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-results
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure git identity
+        run: |
+          git config user.name "results-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch finished results and commit
+        run: python3 update_results.py
