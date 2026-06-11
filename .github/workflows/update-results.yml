@@ -6,7 +6,7 @@ name: Update results
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes (GitHub may delay 5-15 min)
+    - cron: "*/15 * * * *"   # every 15 minutes (GitHub may delay 5-15 min)
   workflow_dispatch: {}       # allow manual runs
 
 permissions:
