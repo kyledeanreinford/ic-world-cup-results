@@ -193,7 +193,17 @@
       "group": "B",
       "home": "Canada",
       "away": "Bosnia-Herzegovina",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m04",
