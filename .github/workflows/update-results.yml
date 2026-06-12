@@ -5,9 +5,9 @@ name: Update results
 # built-in GITHUB_TOKEN - no external credentials needed.
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes (GitHub may delay 5-15 min)
-  workflow_dispatch: {}       # allow manual runs
+  # Scheduling is handled by the k3s CronJob (results-updater) which fires
+  # reliably every 15 min. This workflow stays as a manual fallback only.
+  workflow_dispatch: {}
 
 permissions:
   contents: write
