@@ -174,7 +174,17 @@
       "group": "A",
       "home": "South Korea",
       "away": "Czechia",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 2,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m03",
