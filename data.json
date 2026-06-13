@@ -212,7 +212,17 @@
       "group": "D",
       "home": "USA",
       "away": "Paraguay",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 4,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m05",
