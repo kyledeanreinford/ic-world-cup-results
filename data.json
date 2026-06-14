@@ -307,7 +307,17 @@
       "group": "E",
       "home": "Germany",
       "away": "Curacao",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 7,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m10",
