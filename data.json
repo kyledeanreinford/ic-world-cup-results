@@ -288,7 +288,17 @@
       "group": "D",
       "home": "Australia",
       "away": "Turkiye",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 2,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m09",
