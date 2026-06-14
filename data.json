@@ -326,7 +326,17 @@
       "group": "F",
       "home": "Netherlands",
       "away": "Japan",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 2,
+          "reds": []
+        },
+        "away": {
+          "goals": 2,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m11",
