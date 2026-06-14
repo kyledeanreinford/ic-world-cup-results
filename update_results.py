@@ -20,7 +20,7 @@ import subprocess
 import unicodedata
 import urllib.request
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 LEAGUE = "fifa.world"
 SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={date}"
@@ -127,14 +127,24 @@ def main():
 
     sb_cache, changed = {}, []
     for m in due:
-        d = m["date"].replace("-", "")
-        if d not in sb_cache:
-            try:
-                sb_cache[d] = scoreboard_index(d)
-            except Exception as ex:
-                print(f"  ! scoreboard {d} failed: {ex}")
-                sb_cache[d] = {}
-        ev = sb_cache[d].get(frozenset((norm(m["home"]), norm(m["away"]))))
+        # ESPN files each game under its own US-Eastern date, which can differ
+        # from our `date` grouping field for midnight-ET kickoffs (e.g. a 04:00Z
+        # game is "tomorrow" to ESPN). Search a one-day window around the
+        # kickoff's UTC date so those boundary games still match.
+        kickoff = datetime.fromisoformat(m["kickoff"].replace("Z", "+00:00"))
+        key = frozenset((norm(m["home"]), norm(m["away"])))
+        ev = None
+        for off in (0, 1, -1):
+            d = (kickoff + timedelta(days=off)).strftime("%Y%m%d")
+            if d not in sb_cache:
+                try:
+                    sb_cache[d] = scoreboard_index(d)
+                except Exception as ex:
+                    print(f"  ! scoreboard {d} failed: {ex}")
+                    sb_cache[d] = {}
+            if key in sb_cache[d]:
+                ev = sb_cache[d][key]
+                break
         if not ev:
             print(f"  - {m['id']} {m['home']} v {m['away']}: no ESPN event yet")
             continue
