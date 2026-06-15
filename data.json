@@ -364,7 +364,17 @@
       "group": "F",
       "home": "Sweden",
       "away": "Tunisia",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 5,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m13",
