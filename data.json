@@ -402,7 +402,17 @@
       "group": "G",
       "home": "Belgium",
       "away": "Egypt",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m15",
