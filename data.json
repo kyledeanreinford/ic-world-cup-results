@@ -345,7 +345,17 @@
       "group": "E",
       "home": "Ivory Coast",
       "away": "Ecuador",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m12",
