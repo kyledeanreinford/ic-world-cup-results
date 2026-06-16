@@ -440,7 +440,17 @@
       "group": "G",
       "home": "Iran",
       "away": "New Zealand",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 2,
+          "reds": []
+        },
+        "away": {
+          "goals": 2,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m17",
