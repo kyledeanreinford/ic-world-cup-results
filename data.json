@@ -421,7 +421,17 @@
       "group": "H",
       "home": "Saudi Arabia",
       "away": "Uruguay",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m16",
