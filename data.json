@@ -459,7 +459,17 @@
       "group": "I",
       "home": "France",
       "away": "Senegal",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 3,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m18",
