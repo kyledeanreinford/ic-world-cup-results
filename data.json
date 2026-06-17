@@ -478,7 +478,17 @@
       "group": "I",
       "home": "Iraq",
       "away": "Norway",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 4,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m19",
