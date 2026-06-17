@@ -497,7 +497,17 @@
       "group": "J",
       "home": "Argentina",
       "away": "Algeria",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 3,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m20",
