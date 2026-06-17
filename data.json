@@ -554,7 +554,17 @@
       "group": "L",
       "home": "England",
       "away": "Croatia",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 4,
+          "reds": []
+        },
+        "away": {
+          "goals": 2,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m23",
