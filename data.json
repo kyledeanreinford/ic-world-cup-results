@@ -592,7 +592,17 @@
       "group": "K",
       "home": "Uzbekistan",
       "away": "Colombia",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 3,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m25",
