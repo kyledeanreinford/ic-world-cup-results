@@ -611,7 +611,17 @@
       "group": "A",
       "home": "Czechia",
       "away": "South Africa",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m26",
