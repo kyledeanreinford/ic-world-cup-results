@@ -630,7 +630,23 @@
       "group": "B",
       "home": "Switzerland",
       "away": "Bosnia-Herzegovina",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 4,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": [
+            {
+              "player": "Tarik Muharemovic",
+              "goalie": false,
+              "half": 2
+            }
+          ]
+        }
+      }
     },
     {
       "id": "m27",
