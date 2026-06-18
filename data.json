@@ -573,7 +573,17 @@
       "group": "L",
       "home": "Ghana",
       "away": "Panama",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m24",
