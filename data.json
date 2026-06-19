@@ -704,7 +704,17 @@
       "group": "D",
       "home": "USA",
       "away": "Australia",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 2,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m30",
