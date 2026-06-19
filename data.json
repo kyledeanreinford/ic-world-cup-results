@@ -655,7 +655,28 @@
       "group": "B",
       "home": "Canada",
       "away": "Qatar",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 6,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": [
+            {
+              "player": "Homam Ahmed",
+              "goalie": false,
+              "half": 1
+            },
+            {
+              "player": "Assim Madibo",
+              "goalie": false,
+              "half": 2
+            }
+          ]
+        }
+      }
     },
     {
       "id": "m28",
