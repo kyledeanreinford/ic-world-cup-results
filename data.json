@@ -685,7 +685,17 @@
       "group": "A",
       "home": "Mexico",
       "away": "South Korea",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m29",
