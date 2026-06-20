@@ -761,7 +761,23 @@
       "group": "D",
       "home": "Turkiye",
       "away": "Paraguay",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 0,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": [
+            {
+              "player": "Miguel Almirón",
+              "goalie": false,
+              "half": 1
+            }
+          ]
+        }
+      }
     },
     {
       "id": "m33",
