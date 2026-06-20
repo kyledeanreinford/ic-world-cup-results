@@ -805,7 +805,17 @@
       "group": "E",
       "home": "Germany",
       "away": "Ivory Coast",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 2,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m35",
