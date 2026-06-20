@@ -786,7 +786,17 @@
       "group": "F",
       "home": "Netherlands",
       "away": "Sweden",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 5,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m34",
