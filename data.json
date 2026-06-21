@@ -824,7 +824,17 @@
       "group": "E",
       "home": "Ecuador",
       "away": "Curacao",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 0,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m36",
