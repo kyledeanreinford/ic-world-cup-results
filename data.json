@@ -862,7 +862,17 @@
       "group": "H",
       "home": "Spain",
       "away": "Saudi Arabia",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 4,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m38",
