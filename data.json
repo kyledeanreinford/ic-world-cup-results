@@ -843,7 +843,17 @@
       "group": "F",
       "home": "Tunisia",
       "away": "Japan",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 0,
+          "reds": []
+        },
+        "away": {
+          "goals": 4,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m37",
