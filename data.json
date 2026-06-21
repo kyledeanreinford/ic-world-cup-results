@@ -881,7 +881,23 @@
       "group": "G",
       "home": "Belgium",
       "away": "Iran",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 0,
+          "reds": [
+            {
+              "player": "Nathan Ngoy",
+              "goalie": false,
+              "half": 2
+            }
+          ]
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m39",
