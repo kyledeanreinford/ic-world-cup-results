@@ -906,7 +906,17 @@
       "group": "H",
       "home": "Uruguay",
       "away": "Cape Verde",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 2,
+          "reds": []
+        },
+        "away": {
+          "goals": 2,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m40",
