@@ -925,7 +925,17 @@
       "group": "G",
       "home": "New Zealand",
       "away": "Egypt",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 3,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m41",
