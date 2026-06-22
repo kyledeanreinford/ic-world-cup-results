@@ -944,7 +944,17 @@
       "group": "J",
       "home": "Argentina",
       "away": "Austria",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 2,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m42",
