@@ -1039,7 +1039,17 @@
       "group": "L",
       "home": "England",
       "away": "Ghana",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 0,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m47",
