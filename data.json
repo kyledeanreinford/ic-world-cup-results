@@ -1020,7 +1020,17 @@
       "group": "K",
       "home": "Portugal",
       "away": "Uzbekistan",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 5,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m46",
