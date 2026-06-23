@@ -1001,7 +1001,17 @@
       "group": "J",
       "home": "Jordan",
       "away": "Algeria",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 2,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m45",
