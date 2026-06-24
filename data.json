@@ -1096,7 +1096,17 @@
       "group": "B",
       "home": "Switzerland",
       "away": "Canada",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 2,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m50",
@@ -1105,7 +1115,17 @@
       "group": "B",
       "home": "Bosnia-Herzegovina",
       "away": "Qatar",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 3,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m51",
