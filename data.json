@@ -1077,7 +1077,17 @@
       "group": "K",
       "home": "Colombia",
       "away": "DR Congo",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m49",
