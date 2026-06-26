@@ -1295,7 +1295,17 @@
       "group": "D",
       "home": "Paraguay",
       "away": "Australia",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 0,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m61",
