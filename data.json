@@ -1286,7 +1286,17 @@
       "group": "D",
       "home": "Turkiye",
       "away": "USA",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 3,
+          "reds": []
+        },
+        "away": {
+          "goals": 2,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m60",
