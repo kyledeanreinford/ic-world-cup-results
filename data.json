@@ -1248,7 +1248,17 @@
       "group": "F",
       "home": "Japan",
       "away": "Sweden",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m58",
@@ -1257,7 +1267,17 @@
       "group": "F",
       "home": "Tunisia",
       "away": "Netherlands",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 3,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m59",
