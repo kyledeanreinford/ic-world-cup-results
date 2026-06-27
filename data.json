@@ -1450,7 +1450,17 @@
       "group": "L",
       "home": "Panama",
       "away": "England",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 0,
+          "reds": []
+        },
+        "away": {
+          "goals": 2,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m68",
@@ -1459,7 +1469,17 @@
       "group": "L",
       "home": "Croatia",
       "away": "Ghana",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 2,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m69",
