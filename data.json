@@ -1368,7 +1368,17 @@
       "group": "H",
       "home": "Cape Verde",
       "away": "Saudi Arabia",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 0,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m64",
