@@ -1421,7 +1421,17 @@
       "group": "G",
       "home": "New Zealand",
       "away": "Belgium",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 5,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m67",
