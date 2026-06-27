@@ -1387,7 +1387,23 @@
       "group": "H",
       "home": "Uruguay",
       "away": "Spain",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 0,
+          "reds": [
+            {
+              "player": "Agustín Canobbio",
+              "goalie": false,
+              "half": 2
+            }
+          ]
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m65",
