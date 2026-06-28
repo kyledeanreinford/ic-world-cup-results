@@ -1507,7 +1507,17 @@
       "group": "K",
       "home": "DR Congo",
       "away": "Uzbekistan",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 3,
+          "reds": []
+        },
+        "away": {
+          "goals": 1,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m71",
