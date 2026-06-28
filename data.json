@@ -1488,7 +1488,17 @@
       "group": "K",
       "home": "Colombia",
       "away": "Portugal",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 0,
+          "reds": []
+        },
+        "away": {
+          "goals": 0,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m70",
