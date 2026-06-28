@@ -1526,7 +1526,17 @@
       "group": "J",
       "home": "Algeria",
       "away": "Austria",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 3,
+          "reds": []
+        },
+        "away": {
+          "goals": 3,
+          "reds": []
+        }
+      }
     },
     {
       "id": "m72",
@@ -1535,7 +1545,17 @@
       "group": "J",
       "home": "Jordan",
       "away": "Argentina",
-      "status": "upcoming"
+      "status": "final",
+      "result": {
+        "home": {
+          "goals": 1,
+          "reds": []
+        },
+        "away": {
+          "goals": 3,
+          "reds": []
+        }
+      }
     }
   ]
 }
